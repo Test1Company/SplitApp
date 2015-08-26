@@ -1,0 +1,8 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="SplitApp.splitapp.Detail" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>DetailTitle}">
+		<content>
+	
+		</content>
+	</Page>
+</core:View>

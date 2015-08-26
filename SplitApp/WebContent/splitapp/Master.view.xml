@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="SplitApp.splitapp.Master" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>MasterTitle}" >
+	 	<SearchField id="idSearch" enableClear="true"
+             enableListSuggest="true" enableFilterMode="true" width="100%" >
+		</SearchField>
+	    <List id="idList" 
+    		mode="{device>/listMode}"
+     		select="handleListSelect"
+     		growing="true" inset="false"
+      		growingScrollToLoad="true">
+ 		
+		</List>
+	</Page>
+</core:View>
